@@ -1,0 +1,6 @@
+on - When a listenet is registered using the on() method , htat listener is inoveked every time the named event is emitted. on() method is used to register listeners.
+
+
+once - when a listener is registed using the once() method , it is possible to registe a listener that is called at most once for a particular event. Once the event is emitted , the listener is unregistered and then called.
+
+emit - this method alllows an arbitary set of arguments to be passed to the listener functions . emit() method is used to trigger the event.

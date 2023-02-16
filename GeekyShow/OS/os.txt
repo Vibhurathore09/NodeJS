@@ -1,0 +1,17 @@
+The os Module provides operationg system-realted utility methods and properties
+
+
+platform() - return a string indentifing the operating system platform . The value is set at compile time.
+Possible values are 'aix' , 'darwin' , 'freebsd' , 'linux' , 'openbsd' , 'sunos' and 'win32'.
+
+arch() - Returns the operating system CPU architecture for which the Node.js binary was compiled. Possible values are 'arm
+ , 'arm64 , 'ia32' , 'mips'.
+
+homedir() - Returns the string path of hte curret user;s home directory.
+
+networkInterfaces() - Returns and object containing network interfaces that have been assigned a network address.
+
+freemem() - Returns the amounf of free system memory in byutes as an integer.
+
+totalmen() - Returns the total amount of system moemory in byutes as an interger.
+
