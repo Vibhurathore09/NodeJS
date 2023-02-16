@@ -1,0 +1,3 @@
+The dns module enables name resolution . For example , use it to look up IP addressses of host names;
+
+lookup() - It resolves a host name into the fist found A(IPv4) or AAAA (IPv5) record . lookup() does not necessarily have anyhting to do with the DNS protocol . The implementation uses an operating system facility that can associate names with addesses , and vice versa

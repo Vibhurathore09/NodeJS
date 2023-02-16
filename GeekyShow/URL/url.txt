@@ -1,0 +1,21 @@
+This Module provides utilites for URL resolution and parsing
+
+hash - Gets and set the fragment portion of the URL.
+
+host - Gets and sets the host portion of the URL
+
+hostname - Gets and sets the host name portion of the URl. The kye difference between url.host and url.hostname is that ur.hostname does not incluse the portion
+
+href - Gets and sets the serialized URL.
+
+pathname - Gets and sets the path portion of the URL.
+
+port - Gets and sets the path portion of the URL.
+
+protocol - Gets and sets the protocl portion of the URL.
+
+search - Gets and sets the serialized query portion of the URL.
+
+toString() - this method on the URL objects return the serialized URL. The value returned ins equivalend to htat of url.href and url.toJSON();
+
+toJSON() - The toJSON() method on the URL object returns the serialized URL. The value returned is equivalned th that url.href and url.toString().
